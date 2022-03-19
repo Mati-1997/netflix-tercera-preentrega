@@ -1,0 +1,45 @@
+/* Fondo Home e Inicia Sesion */
+.fondo {
+  background-image: url("../img/fondo.jpg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover; }
+
+/* Fondo para butons */
+.rojo {
+  background-color: red; }
+
+/*color de letra*/
+.letra {
+  color: red; }
+
+/*bordes de div*/
+.div-planes {
+  border: 2px solid red;
+  margin: 2rem 0rem;
+  padding: 1rem; }
+
+/* Fondo para boton idioma */
+.transparente {
+  background-color: white; }
+
+/* Padding para div central en Home */
+.padding {
+  padding-top: 130px; }
+
+/* Adaptacion para mobile*/
+@media (max-width: 750px) {
+  .items {
+    justify-content: center;
+    display: flex; }
+  .padding {
+    padding-top: 20px; } }
+
+/* Borrado de la linea que subraya los a*/
+a {
+  text-decoration: none; }
+
+/*Fondo del div central en seccion Inicia Sesion*/
+.fondo-div {
+  background-color: black;
+  opacity: 80%; }
